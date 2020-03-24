@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+}
+nav img{
+    width: 50%;
+    height: 75%;
+    margin-top: 15px;
+}
+.menu{
+   margin: 10px auto;
+}
+.menu a {
+    margin-left: 75px;
+    text-decoration: none;
+    color: black;
+}
+.signUp{
+    background-color:tomato;
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 10px 25px;
+    margin-top: 8px;
+}
+.background{
+   width:1300px;
+   height: 475px;
+}
+.category{
+   margin: 10px auto;
+}
+.category a{
+    text-decoration: none;
+    margin-left: 70px;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
