@@ -11,7 +11,7 @@ const Dinner = (props) => {
             <h3>{name}</h3>
             <h5>{description}</h5>
             <h1>$ {Price}</h1>
-            <button>CheckOut</button>
+          
         </div>
               
     );

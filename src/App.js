@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import CategoryDinner from './Components/CategoryDinner/CategoryDinner';
 import CategoryLunch from './Components/CategoryLunch/CategoryLunch';
+import ProductDetail from './Components/ProductDetail/ProductDetail';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path="/">
             <Category></Category>
+        </Route>
+        <Route path="/:productKey">
+            <ProductDetail></ProductDetail>
         </Route>
        </Switch>
      </Router>

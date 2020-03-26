@@ -11,7 +11,7 @@ const Header = () => {
   
     return (
         <div className='header'>
-            <nav>
+            <nav className="d-flex">
                     <div>
                         <img src={logo} alt="logo here."/>
                     </div>
@@ -24,7 +24,7 @@ const Header = () => {
             <div >
                 <img className="background" src={bannerbackground} alt="background here"/>
             </div>
-            <div className="category">
+            <div className="category m-auto">
                 <a href="/breakfast">Breakfast</a>              
                 <a href="/lunch">Lunch</a>
                 <a href="/dinner">Dinner</a>               

@@ -1,21 +1,25 @@
 import React from 'react';
 import fakeData from '../../fakeData';
-import Dinner from '../Dinner/Dinner';
+import Breakfasts from '../Breakfast/Breakfasts';
 import { useState } from 'react';
 
 
 
+
 const Category = () => {
-    const [dinners, setDinners] = useState(fakeData.slice(0,6));
+    const [breakFasts, setBreakfasts] = useState(fakeData.slice(0,6));
     
     return (
-        <div>
+        <div >
             {
-                dinners.map(pd => <Dinner product = {pd}></Dinner>)
+                breakFasts.map(pd1 => <Breakfasts key = {pd1.key} prod = {pd1} ></Breakfasts>)
                        
             }
-                         
+        <div >
+            <button className ="btn btn-danger">CheckOut Your Food</button>
+        </div>            
         </div>
+       
     );
 };
 
