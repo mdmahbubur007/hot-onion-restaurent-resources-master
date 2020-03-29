@@ -11,29 +11,36 @@ import {
 import CategoryDinner from './Components/CategoryDinner/CategoryDinner';
 import CategoryLunch from './Components/CategoryLunch/CategoryLunch';
 import ProductDetail from './Components/ProductDetail/ProductDetail';
+import Login from './Components/Login/Login';
+import SignUp from './Components/SignUp/SignUp';
 
 function App() {
   return (
     <div >
      <Header></Header>
-    
      
      <Router>
        <Switch>
-       <Route path="/breakfast">
+       <Route exact path="/breakfast">
             <Category></Category>
         </Route>
-        <Route path="/dinner">
+        <Route exact path="/dinner">
             <CategoryDinner></CategoryDinner>
         </Route>
-        <Route path="/lunch">
+        <Route exact path="/lunch">
             <CategoryLunch></CategoryLunch>
         </Route>
-        <Route path="/">
+        <Route exact path="/">
             <Category></Category>
         </Route>
-        <Route path="/:productKey">
+        <Route path="/product/:productKey">
             <ProductDetail></ProductDetail>
+        </Route>
+        <Route path="/Login">
+            <Login></Login>
+        </Route>
+        <Route path="/SignUp">
+            <SignUp></SignUp>
         </Route>
        </Switch>
      </Router>

@@ -1,11 +1,11 @@
 .dinner{
     width: 28%;
-    background-color: lemonchiffon;
+    background-color: lightgreen;
     border-radius: 10px;
     margin: 20px;
     float: left;
     text-align: center;
-    box-shadow: 5px 5px 15px lightgreen;
+    box-shadow: 5px 5px 15px rgb(59, 175, 59);
     padding: 10px;
     cursor: pointer;
 }

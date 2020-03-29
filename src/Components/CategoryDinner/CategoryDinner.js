@@ -9,9 +9,12 @@ const CategoryDinner = () => {
         <div>
            {
                dinners.map(pd => <Dinner key = {pd.key} product = {pd}></Dinner>)
+
                
             }
-           
+          <div >
+            <button className ="button">CheckOut Your Food</button>
+        </div>    
         </div>
     );
 };

@@ -16,15 +16,15 @@ const Header = () => {
                         <img src={logo} alt="logo here."/>
                     </div>
                     <div className="menu">
-                        <FontAwesomeIcon icon={faShoppingCart} className="cart"/>
+                        <FontAwesomeIcon icon={faShoppingCart} className="cart"/>  <span>0</span>
                         <a href="/Login">Log In</a>
-                        <a className= "signUp" href="/Sign Up">Sign Up</a>
+                        <a className= "signUp" href="/SignUp">Sign Up</a>
                     </div>
             </nav>
             <div >
                 <img className="background" src={bannerbackground} alt="background here"/>
             </div>
-            <div className="category m-auto">
+            <div className="category">
                 <a href="/breakfast">Breakfast</a>              
                 <a href="/lunch">Lunch</a>
                 <a href="/dinner">Dinner</a>               

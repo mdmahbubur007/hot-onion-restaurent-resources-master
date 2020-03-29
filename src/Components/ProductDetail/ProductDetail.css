@@ -1,0 +1,41 @@
+.product-details{
+    display: flex;
+}
+.product-description{
+    width:65%;
+    margin-left: 50px;
+    box-shadow: 5px 5px 15px lightgreen;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.product-image{
+    width: 35%;
+    padding: 100px 150px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 15px lightsalmon;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.addLess{
+    cursor: pointer;
+}
+.product-Price{
+    display: flex;
+}
+.addCount{
+    margin: 32px;
+}
+.addCount span{
+    margin-left: 15px;
+}
+.signUp{
+    background-color:tomato;
+    border-radius: 20px;
+    line-height: 20px;
+    padding: 10px 25px;
+    margin-top: 8px;
+    cursor: pointer;
+}

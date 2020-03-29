@@ -1,3 +1,16 @@
-.dinner-main{
-    
+.button{
+    margin-left: 550px;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.button:hover{
+    margin-left: 550px;
+    background-image: linear-gradient(to right, cyan, lightgreen);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px double lightgreen;
+    transition: 1s;
+    font-weight: 600;
 }

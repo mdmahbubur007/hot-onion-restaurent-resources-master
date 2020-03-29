@@ -1,10 +1,23 @@
 .launches{
     width: 28%;
-    background-color: rgb(136, 136, 135);
+    background-color:lightcyan;
     border-radius: 10px;
     margin: 20px;
     float: left;
     text-align: center;
     box-shadow: 5px 5px 15px lightgreen;
     padding: 10px;
+    
+}
+.launches:hover{
+    width: 28%;
+    background-color:lightgreen;
+    border-radius: 10px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    box-shadow: 8px 8px 15px lightcyan;
+    padding: 10px;
+    border: 2px solid lightcyan;
+    transition: 1s ease all;
 }
